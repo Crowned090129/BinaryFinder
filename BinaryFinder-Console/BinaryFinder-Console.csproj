@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BinarySearch.Library\BinarySearch.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="BubbleSortAlgorithm_Library">
       <HintPath>..\ref\BubbleSortAlgorithm_Library.dll</HintPath>
     </Reference>
