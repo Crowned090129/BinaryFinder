@@ -18,6 +18,9 @@
                 else if (num < obj[midIndex])
                     highIndex = midIndex - 1;
 
+                if (midIndex == lowIndex && midIndex == highIndex + 1)
+                    break;
+
                 midIndex = Convert.ToInt32(((highIndex - lowIndex) / 2)) + lowIndex;
             }
 
